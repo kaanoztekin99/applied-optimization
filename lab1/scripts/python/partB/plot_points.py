@@ -159,7 +159,7 @@ def run_func2(out_dir):
         title="FUNC2 - Surface + Stationary Point"
     )
 def main():
-    out_dir = "./stationary_plots"
+    out_dir = "stationary_plots"
     os.makedirs(out_dir, exist_ok=True)
 
     print("\n===== RUNNING FUNC1 =====")
